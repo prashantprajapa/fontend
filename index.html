@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise of web-development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script>
+        // function validateForm(){
+        //     var name=document.loginform.name.value;
+        //     var password=document.loginform.password.value;
+        //     var confirmpassword=document.loginform.confirmpassword.value;
+        //     var email=document.loginform.email.value;
+        //     if(name==null||name==""){
+        //         alert("please enter your name");
+        //         return false;
+        //     }else if(password.length<6){
+        //         // document.writeln("please enter yout valid password");
+        //         alert("enter your password");
+        //         return false;
+        //     }else if(password==confirmpassword){
+        //         return true;
+        //     }else if{
+        //         alert("password does not match");
+        //         return false;}
+        //     else if(email==""||email==Number){
+        //          alert("please enter correct email")
+        //      }
+        // }
+        // document.getElementById("clickButton").addEventListener("click",hide);
+        // function hide(){
+        //     document.body.style.background="yellow";
+        // }
+
+        
+    </script> -->
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="mynav">
+            
+            
+                <li class="dropdown">
+                    <a href="a"><i class="fa fa-fw fa-home"></i>Home</a>
+                    <div class="drop-content">
+                        <a href="a">setting</a>
+                        <a href="a">our service</a>
+                        <a href="a">help & support</a>
+                    </div>
+                </li>
+            
+                <div class="container" onclick="myFunction(x)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                        
+                    </a1>
+
+                
+                
+                <li><a href="a">Blog</a></li>
+                <li><a href="a">contact us</a></li>
+                <li><a href="a">About us</a></li>
+                <li class="search">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit" ><i class="fa fa-search"></i></button>
+                  </form>
+                </li>
+            
+        </nav>
+        
+    </header>
+    
+    
+
+        
+    
+    <script>
+   function myFunction(x) {
+  x.classList.toggle("change");
+  var x = document.getElementById("mynav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+  
+}
+       
+
+       
+   </script>
+     
+    
+    
+</body>
+</html>
